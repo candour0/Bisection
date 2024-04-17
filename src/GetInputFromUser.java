@@ -5,6 +5,7 @@ class GetInputFromUser {
     public static void getInput() {
         // Using Scanner for Getting Input from User
         Scanner in = new Scanner(System.in).useLocale(Locale.ENGLISH);
+        System.out.println("test");
 
         System.out.println("Enter the first point (double) : ");
         double first = in.nextDouble();
